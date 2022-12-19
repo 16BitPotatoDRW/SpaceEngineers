@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<!-- Created by AQD ResearchGroups Editor on: 2021-11-11 09:45 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Blueprints>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>T2_16b_BP_Oki_A1</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_T2_16b_BP_Oki_A1}</DisplayName>
+			<Icon>Textures\GUI\Icons\AQD_research_combat_Oki.dds</Icon>
+			<Prerequisites>
+				<Item Amount="10" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial"/>
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Component" SubtypeId="16b_Tech_Oki_A1"/>
+			</Results>
+			<BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>T2_16b_BP_Oki_B1</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_T2_16b_BP_Oki_B1}</DisplayName>
+			<Icon>Textures\GUI\Icons\AQD_research_combat_Oki.dds</Icon>
+			<Prerequisites>
+				<Item Amount="80" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial"/>
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Component" SubtypeId="16b_Tech_Oki_B1"/>
+			</Results>
+			<BaseProductionTimeInSeconds>2400</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>T1_16b_BP_Oki_C1</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_T1_16b_BP_Oki_C1}</DisplayName>
+			<Icon>Textures\GUI\Icons\AQD_research_combat_Oki.dds</Icon>
+			<Prerequisites>
+				<Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial"/>
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Component" SubtypeId="16b_Tech_Oki_C1"/>
+			</Results>
+			<BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>T2_16b_BP_Oki_C2</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_T2_16b_BP_Oki_C2}</DisplayName>
+			<Icon>Textures\GUI\Icons\AQD_research_combat_Oki.dds</Icon>
+			<Prerequisites>
+				<Item Amount="80" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial"/>
+				<Item Amount="1" TypeId="Component" SubtypeId="16b_Tech_Oki_C1"/>
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Component" SubtypeId="16b_Tech_Oki_C2"/>
+			</Results>
+			<BaseProductionTimeInSeconds>2400</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>T3_16b_BP_Oki_C3</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_T3_16b_BP_Oki_C3}</DisplayName>
+			<Icon>Textures\GUI\Icons\AQD_research_combat_Oki.dds</Icon>
+			<Prerequisites>
+				<Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_AdvancedResearchMaterial"/>
+				<Item Amount="1" TypeId="Component" SubtypeId="16b_Tech_Oki_C2"/>
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Component" SubtypeId="16b_Tech_Oki_C3"/>
+			</Results>
+			<BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>T4_16b_BP_Oki_C4</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_T4_16b_BP_Oki_C4}</DisplayName>
+			<Icon>Textures\GUI\Icons\AQD_research_combat_Oki.dds</Icon>
+			<Prerequisites>
+				<Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_EliteResearchMaterial"/>
+				<Item Amount="1" TypeId="Component" SubtypeId="16b_Tech_Oki_C3"/>
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Component" SubtypeId="16b_Tech_Oki_C4"/>
+			</Results>
+			<BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>T4_16b_BP_Oki_D1</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_T4_16b_BP_Oki_D1}</DisplayName>
+			<Icon>Textures\GUI\Icons\AQD_research_combat_Oki.dds</Icon>
+			<Prerequisites>
+				<Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EliteResearchMaterial"/>
+			</Prerequisites>
+			<Results>
+				<Item Amount="1" TypeId="Component" SubtypeId="16b_Tech_Oki_D1"/>
+			</Results>
+			<BaseProductionTimeInSeconds>2400</BaseProductionTimeInSeconds>
+		</Blueprint>
+	</Blueprints>
+</Definitions>							
